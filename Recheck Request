@@ -12,11 +12,11 @@ void rev_str(char* s, char* ans) {
 
 int main() {
     // Test Case 1: Reversing a string with even length
-    char str1[] = "hello";
+    char str1[] = "hellof";
     char reversed1[6]; // Make sure to allocate enough space for the reversed string
     rev_str(str1, reversed1);
     printf("Reversed String 1: %s\n", reversed1);
-    // Expected Output: olleh
+    // Expected Output: folleh
 
     // Test Case 2: Reversing a string with odd length
     char str2[] = "world";
